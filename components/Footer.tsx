@@ -1,10 +1,9 @@
-
 import Link from "next/link";
 
 export default function Footer() {
   return (
     <footer className="w-full bg-dark px-margin-mobile pb-stack-lg pt-stack-lg text-cream md:px-margin-desktop">
-      <div className="mx-auto mb-stack-lg grid max-w-container-max grid-cols-1 gap-gutter border-t border-dark-border pt-stack-lg md:grid-cols-4">
+      <div className="mx-auto mb-stack-lg grid max-w-container-max grid-cols-1 gap-gutter md:grid-cols-4">
         <div>
           <Link
             href="/"
