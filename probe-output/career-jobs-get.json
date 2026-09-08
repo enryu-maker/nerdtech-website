@@ -1,0 +1,32 @@
+{
+  "method": "GET",
+  "path": "/career/jobs/",
+  "status": 200,
+  "contentType": "application/json",
+  "body": [
+    {
+      "id": 1,
+      "title": "Django REST Framework (DRF) Developer",
+      "description": "<p>As a <strong>Django REST Framework (DRF) Developer</strong>, you will play a crucial role in developing and maintaining <strong>RESTful</strong> APIs and web applications using the Django framework. Your primary responsibility will be to design, implement, and optimize APIs that provide seamless integration between front-end and back-end systems while ensuring scalability, security, and performance.</p>",
+      "requirements": "<ol>\r\n\t<li>Bachelor&#39;s degree in Computer Science, Engineering, or a related field (or equivalent experience).</li>\r\n\t<li>Proficiency in Python programming language.</li>\r\n\t<li>Strong understanding of Django framework and Django REST Framework (DRF).</li>\r\n\t<li>Experience in designing and developing RESTful APIs and web services.</li>\r\n\t<li>Familiarity with relational databases and SQL queries.</li>\r\n\t<li>Knowledge of authentication and authorization mechanisms such as token-based authentication, OAuth, or JWT.</li>\r\n\t<li>Experience with version control systems (e.g., Git) and collaborative development workflows.</li>\r\n\t<li>Excellent problem-solving skills and attention to detail.</li>\r\n\t<li>Strong communication and collaboration skills.</li>\r\n\t<li>Experience with front-end technologies (HTML, CSS, JavaScript) is a plus.</li>\r\n</ol>",
+      "responsibilities": "<ol>\r\n\t<li>Design, develop, and maintain RESTful APIs using Django REST Framework (DRF) to support web and mobile applications.</li>\r\n\t<li>Collaborate with front-end developers, UX/UI designers, and other stakeholders to understand project requirements and implement API endpoints accordingly.</li>\r\n\t<li>Implement authentication and authorization mechanisms such as token-based authentication, OAuth, or JWT to secure API endpoints.</li>\r\n\t<li>Optimize API performance through efficient database queries, caching strategies, and other optimization techniques.</li>\r\n\t<li>Write clean, well-documented, and maintainable code following best practices and coding standards.</li>\r\n\t<li>Implement automated tests for API endpoints to ensure reliability and stability.</li>\r\n\t<li>Troubleshoot and debug issues in API functionality and performance.</li>\r\n\t<li>Work with relational databases (e.g., PostgreSQL, MySQL) to design schemas and optimize database interactions.</li>\r\n\t<li>Collaborate with DevOps engineers to deploy and manage APIs in production environments.</li>\r\n\t<li>Stay up-to-date with the latest developments in Django, Django REST Framework, and related technologies to continuously improve skills and stay ahead of industry trends.</li>\r\n</ol>",
+      "salary": "0.00",
+      "location": "Nashik",
+      "is_active": true,
+      "created_at": "2024-04-06T15:24:30.649832Z",
+      "updated_at": "2024-04-12T04:02:58.441624Z"
+    },
+    {
+      "id": 3,
+      "title": "React Native Developer",
+      "description": "<p>As a <strong>React Native Developer</strong>, you will be responsible for designing, building, and maintaining mobile applications using the React Native framework. Your role will involve collaborating with cross-functional teams to understand project requirements, translating designs into <strong>high-quality code, and ensuring the performance, reliability, and usability of mobile applications across different platforms</strong>.</p>",
+      "requirements": "<ol>\r\n\t<li>Bachelor&#39;s degree in Computer Science, Engineering, or a related field (or equivalent experience).</li>\r\n\t<li>Proficiency in JavaScript programming language and <strong>React Native framework.</strong></li>\r\n\t<li>Experience in developing mobile applications for iOS and Android platforms.</li>\r\n\t<li>Strong understanding of mobile app architecture, including state management, navigation, and data persistence.</li>\r\n\t<li>Familiarity with <strong>RESTful APIs</strong> and <strong>asynchronous programming concepts.</strong></li>\r\n\t<li>Knowledge of mobile<strong> UI/UX</strong> design principles and best practices.</li>\r\n\t<li>Experience with version control systems (<strong>Git</strong>) and collaborative development workflows.</li>\r\n\t<li>Excellent problem-solving skills and attention to detail.</li>\r\n\t<li>Strong communication and collaboration skills.</li>\r\n\t<li>Familiarity with additional mobile development tools and technologies (&nbsp;<strong>Redux, GraphQL, Firebase</strong>) is a plus.</li>\r\n</ol>",
+      "responsibilities": "<ol>\r\n\t<li>Develop and maintain mobile applications for iOS and Android platforms using React Native framework.</li>\r\n\t<li>Collaborate with designers and product managers to understand user requirements and translate them into technical specifications.</li>\r\n\t<li>Implement responsive and pixel-perfect UI components based on design mockups and style guides.</li>\r\n\t<li>Integrate with back-end services and APIs to fetch and persist data, and implement business logic.</li>\r\n\t<li>Optimize mobile application performance for speed and responsiveness, ensuring smooth user experience.</li>\r\n\t<li>Implement navigation and routing logic within the mobile application, handling transitions and state management efficiently.</li>\r\n\t<li>Write clean, well-structured, and maintainable code following best practices and coding standards.</li>\r\n\t<li>Conduct code reviews and provide feedback to team members to ensure code quality and consistency.</li>\r\n\t<li>Troubleshoot and debug issues in mobile applications, addressing performance bottlenecks, memory leaks, and other issues.</li>\r\n\t<li>Stay up-to-date with the latest developments in React Native and mobile app development to incorporate best practices and new features into projects.</li>\r\n</ol>",
+      "salary": "0.00",
+      "location": "Nashik",
+      "is_active": true,
+      "created_at": "2024-04-13T16:33:17.984832Z",
+      "updated_at": "2024-04-13T16:33:17.984871Z"
+    }
+  ]
+}

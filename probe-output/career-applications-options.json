@@ -1,0 +1,68 @@
+{
+  "method": "OPTIONS",
+  "path": "/career/applications/",
+  "status": 200,
+  "contentType": "application/json",
+  "body": {
+    "name": "Application List",
+    "description": "",
+    "renders": [
+      "application/json",
+      "text/html"
+    ],
+    "parses": [
+      "application/json",
+      "application/x-www-form-urlencoded",
+      "multipart/form-data"
+    ],
+    "actions": {
+      "POST": {
+        "id": {
+          "type": "integer",
+          "required": false,
+          "read_only": true,
+          "label": "ID"
+        },
+        "full_name": {
+          "type": "string",
+          "required": true,
+          "read_only": false,
+          "label": "Full name",
+          "max_length": 100
+        },
+        "email": {
+          "type": "email",
+          "required": true,
+          "read_only": false,
+          "label": "Email",
+          "max_length": 254
+        },
+        "resume": {
+          "type": "file upload",
+          "required": true,
+          "read_only": false,
+          "label": "Resume",
+          "max_length": 100
+        },
+        "cover_letter": {
+          "type": "string",
+          "required": true,
+          "read_only": false,
+          "label": "Cover letter"
+        },
+        "created_at": {
+          "type": "datetime",
+          "required": false,
+          "read_only": true,
+          "label": "Created at"
+        },
+        "career": {
+          "type": "field",
+          "required": true,
+          "read_only": false,
+          "label": "Career"
+        }
+      }
+    }
+  }
+}

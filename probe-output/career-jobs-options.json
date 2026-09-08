@@ -1,0 +1,87 @@
+{
+  "method": "OPTIONS",
+  "path": "/career/jobs/",
+  "status": 200,
+  "contentType": "application/json",
+  "body": {
+    "name": "Career List",
+    "description": "",
+    "renders": [
+      "application/json",
+      "text/html"
+    ],
+    "parses": [
+      "application/json",
+      "application/x-www-form-urlencoded",
+      "multipart/form-data"
+    ],
+    "actions": {
+      "POST": {
+        "id": {
+          "type": "integer",
+          "required": false,
+          "read_only": true,
+          "label": "ID"
+        },
+        "title": {
+          "type": "string",
+          "required": true,
+          "read_only": false,
+          "label": "Title",
+          "max_length": 100
+        },
+        "description": {
+          "type": "string",
+          "required": true,
+          "read_only": false,
+          "label": "Description"
+        },
+        "requirements": {
+          "type": "string",
+          "required": true,
+          "read_only": false,
+          "label": "Requirements"
+        },
+        "responsibilities": {
+          "type": "string",
+          "required": true,
+          "read_only": false,
+          "label": "Responsibilities"
+        },
+        "salary": {
+          "type": "decimal",
+          "required": true,
+          "read_only": false,
+          "label": "Salary",
+          "max_digits": 10,
+          "decimal_places": 2
+        },
+        "location": {
+          "type": "string",
+          "required": true,
+          "read_only": false,
+          "label": "Location",
+          "max_length": 100
+        },
+        "is_active": {
+          "type": "boolean",
+          "required": false,
+          "read_only": false,
+          "label": "Is active"
+        },
+        "created_at": {
+          "type": "datetime",
+          "required": false,
+          "read_only": true,
+          "label": "Created at"
+        },
+        "updated_at": {
+          "type": "datetime",
+          "required": false,
+          "read_only": true,
+          "label": "Updated at"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "method": "GET",
+  "path": "/expertise/",
+  "status": 200,
+  "contentType": "application/json",
+  "body": [
+    {
+      "name": "Strategy",
+      "expertise": [
+        {
+          "name": "Brand Strategy",
+          "image": "/media/expertise/Screenshot_2024-07-10_at_11.53.09AM_ZM4BF4j.png",
+          "description": "A brand strategy defines the 1H & 5Ws for your brand - How, What, When, Where, Why and Whom to communicate your brand's message to."
+        },
+        {
+          "name": "Brand Purpose & Positioning",
+          "image": "/media/expertise/Screenshot_2024-07-10_at_11.53.09AM_9GtqDoB.png",
+          "description": "Brand positioning means the nature of estate that a brand occupies in the minds of the consumer while brand purpose means the motive that is the driver of the brand."
+        },
+        {
+          "name": "Brand Voice",
+          "image": "/media/expertise/Screenshot_2024-07-10_at_11.53.09AM_V13AxoJ.png",
+          "description": "Brand voice refers to the tone of your brand that is used to communicate to your audience."
+        },
+        {
+          "name": "Brand Research & Analysis",
+          "image": "/media/expertise/Screenshot_2024-07-10_at_11.53.09AM_KpL02nI.png",
+          "description": "Brand research & analysis is the in depth study of every primary and related aspect that builds a brand, and the derivations done from this study."
+        },
+        {
+          "name": "Brand Architecture",
+          "image": "/media/expertise/Screenshot_2024-07-10_at_11.53.09AM_o7mGAQj.png",
+          "description": "Brand architecture is a structure that defines the relation between a parent brand and its sub-brands, products/services, sister companies or subsidiaries."
+        }
+      ]
+    },
+    {
+      "name": "Identity",
+      "expertise": [
+        {
+          "name": "Brand Identity",
+          "image": "/media/expertise/Screenshot_2024-07-10_at_11.53.09AM_soJrlFo.png",
+          "description": "Brand identity is a combination of several elements of a brand such as the brand name, logo, tagline, corporate identity design, etc."
+        },
+        {
+          "name": "Brand Name & Tagline",
+          "image": "/media/expertise/Screenshot_2024-07-10_at_11.53.09AM_eOzmuGF.png",
+          "description": "Brand name is the word with which people call and recall you. Tagline is the supportive phrase of a brand name that conveys what the brand does or stands for."
+        },
+        {
+          "name": "Logo Design",
+          "image": "/media/expertise/Screenshot_2024-07-10_at_11.53.09AM_vqR02kE.png",
+          "description": "Logo is a symbol or a design by which you represent your organization in front of your customers."
+        },
+        {
+          "name": "Brochure  Design",
+          "image": "/media/expertise/Screenshot_2024-07-10_at_11.53.09AM_vnEJlcn.png",
+          "description": "A brochure stitches together information about your company and gives a final product that carries around the message that you want the reader to get."
+        },
+        {
+          "name": "Packaging Design",
+          "image": "/media/expertise/Screenshot_2024-07-10_at_11.53.09AM_DwHZ4OJ.png",
+          "description": "The clothes that you tailor for your products."
+        }
+      ]
+    },
+    {
+      "name": "Website",
+      "expertise": [
+        {
+          "name": "Business/Corporate Websites",
+          "image": "/media/expertise/Screenshot_2024-07-10_at_11.53.09AM.png",
+          "description": "A business site is any site that is committed to depicting a particular business. It ought to be branded like the company (a similar logo and positioning) and convey the sorts of items as well as services the company/ business offers"
+        },
+        {
+          "name": "NGO /Non-Profit Websites",
+          "image": "/media/expertise/Screenshot_2024-07-10_at_11.53.09AM_zQFagY3.png",
+          "description": "Just like brands and businesses, Non –profit organisations and NGOs also require a website. Similarly that organisations need sites to be their online nearness, not-for-profits do too"
+        },
+        {
+          "name": "E-Commerce Website",
+          "image": "/media/expertise/Screenshot_2024-07-10_at_11.53.09AM_Nz4uJQi.png",
+          "description": "The websites where users can shop and makes purchases are called E-Commerce Websites. All of would have used these sites a myriad of times, and they have become a must-have for every selling business"
+        },
+        {
+          "name": "Educational Website",
+          "image": "/media/expertise/Screenshot_2024-07-10_at_11.53.09AM_GbUDRf3.png",
+          "description": "The sites of educational organisations and those providing online courses fall into the class of educational sites"
+        },
+        {
+          "name": "Social Media Websites",
+          "image": "/media/expertise/Screenshot_2024-07-10_at_11.53.09AM_R9C5mfJ.png",
+          "description": "We are all aware of the giants Instagram and Facebook; who doesn’t know of them? However, social media comes in various forms. These websites are normally made to let individuals share contemplations, pictures or thoughts, or just associate with others corresponding to a specific topic"
+        }
+      ]
+    },
+    {
+      "name": "Storytelling",
+      "expertise": [
+        {
+          "name": "Brand  Storytelling",
+          "image": "/media/expertise/Screenshot_2024-07-10_at_11.53.09AM_qqcneb7.png",
+          "description": "Brand storytelling is all about expressing your brand in the form of a story, but keeping people at the focal point."
+        },
+        {
+          "name": "Photography, Film & Animation",
+          "image": "/media/expertise/Screenshot_2024-07-10_at_11.53.09AM_foYB3Cn.png",
+          "description": "Photography, Film & Animation are visual media that help create and express a brand's personality. It includes multiple aspects like product photography services, screenwriting, storyboarding, set design, etc. which usher thoughtful storytelling."
+        },
+        {
+          "name": "Public and Media Relation",
+          "image": "/media/expertise/Screenshot_2024-07-10_at_11.53.09AM_WqkLGOT.png",
+          "description": "The relation that brands develop with their public audiences and the media by sharing information, creating awareness and building reputation."
+        },
+        {
+          "name": "Environmental Branding",
+          "image": "/media/expertise/Screenshot_2024-07-10_at_11.53.09AM_GkKojyC.png",
+          "description": "Environmental branding is storytelling about your brand in your own space."
+        }
+      ]
+    },
+    {
+      "name": "Digital",
+      "expertise": [
+        {
+          "name": "Search Engine Optimization",
+          "image": "/media/expertise/Nerdtech_Logo_white_text_black_background.png",
+          "description": "It is the process of optimizing a website to improve its ranking on search engines & to attract relevant audience."
+        },
+        {
+          "name": "Social Media Marketing",
+          "image": "/media/expertise/IMG_0060.png",
+          "description": "Social Media Marketing is the marketing of a brand and it's products & services on different social media channels."
+        },
+        {
+          "name": "Email Marketing",
+          "image": "/media/expertise/31D6F58A-9A04-4919-A838-920789213472.png",
+          "description": "Email marketing consists of sending emails to a group of customers or associates for the purpose of promotions or sharing information."
+        },
+        {
+          "name": "Search Engine Marketing",
+          "image": "/media/expertise/31D6F58A-9A04-4919-A838-920789213472_gSx3vTS.png",
+          "description": "Search engine marketing comprises of various types of ads. These can be text ads, responsive search ads, dynamic search ads, display ads, image ads, video ads (google ads on youtube), product shopping ads, showcase shopping ads and call-only ads."
+        }
+      ]
+    },
+    {
+      "name": "App Development",
+      "expertise": [
+        {
+          "name": "Lifestyle Mobile Apps",
+          "image": "/media/expertise/Screenshot_2024-07-10_at_11.53.09AM_9QGyQ3n.png",
+          "description": "Lifestyle apps have come on strong in recent years. A lifestyle app is one that accelerates or supports the individual facets that define your lifestyle"
+        },
+        {
+          "name": "Social Media Mobile Apps",
+          "image": "/media/expertise/Screenshot_2024-07-10_at_11.53.09AM_v8uCGww.png",
+          "description": "Social media apps are some of the most popular types of mobile apps available. We build our social networks, and most of us check in with them every day. Facebook alone reports over 1 billion active daily users."
+        },
+        {
+          "name": "Utility Mobile Apps",
+          "image": "/media/expertise/Screenshot_2024-07-10_at_11.53.09AM_KHP3nQO.png",
+          "description": "Utilities are the types of mobile apps that we may use most often without thinking about them as apps. Many of them come pre-installed on your device and serve a single function."
+        },
+        {
+          "name": "Productivity Mobile Apps",
+          "image": "/media/expertise/Screenshot_2024-07-10_at_11.53.09AM_Up5hbRZ.png",
+          "description": "While productivity may sound like one of the more boring types of mobile apps, it’s an incredibly popular category. These types of apps help their users accomplish a task quickly and efficiently, making what are sometimes mundane tasks easier and, dare I say, fun?"
+        }
+      ]
+    }
+  ]
+}

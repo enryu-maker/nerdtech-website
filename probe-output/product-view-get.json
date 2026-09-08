@@ -1,0 +1,17 @@
+{
+  "method": "GET",
+  "path": "/product/view/",
+  "status": 200,
+  "contentType": "application/json",
+  "body": [
+    {
+      "id": 1,
+      "name": "Herdhelp",
+      "price": "0.00",
+      "description": "Herdhelp  is a piece of software that would track any animals that we might bring to our farm, whether it be cattle, sheep, goats, rabbits, pigs, or horses. The app was created to work on Android or iPhone cellular devices as well as on your laptop.",
+      "image": "https://nerdtech.pythonanywhere.com/media/product_images/AppIcon-0-0-1x_U007emarketing-0-5-0-0-85-220.png",
+      "created_at": "2024-05-14T20:35:40.120253Z",
+      "updated_at": "2026-04-03T05:46:29.553568Z"
+    }
+  ]
+}

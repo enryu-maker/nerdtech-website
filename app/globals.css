@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cream text-ink antialiased;
+    overflow-x: hidden;
+  }
+}
+
+@keyframes page-enter {
+  from {
+    opacity: 0;
+    transform: translateY(28px) scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-page-enter {
+  animation: page-enter 0.65s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@layer utilities {
+  .hairline-divider {
+    width: 1px;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .dot-grid {
+    background-image: radial-gradient(rgba(18, 18, 18, 0.14) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+
+  .dot-grid-dark {
+    background-image: radial-gradient(rgba(255, 255, 255, 0.12) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+
+  .mask-fade-x {
+    mask-image: linear-gradient(
+      to right,
+      transparent 0,
+      black 8%,
+      black 92%,
+      transparent 100%
+    );
+    -webkit-mask-image: linear-gradient(
+      to right,
+      transparent 0,
+      black 8%,
+      black 92%,
+      transparent 100%
+    );
+  }
+
+  .grain {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.6'/%3E%3C/svg%3E");
+    background-size: 140px 140px;
+  }
+
+  .gradient-ring::before {
+    content: "";
+    position: absolute;
+    inset: -2px;
+    border-radius: inherit;
+    z-index: -1;
+    background: conic-gradient(
+      from 0deg,
+      #0cafff,
+      #7fdaff,
+      #0cafff 50%,
+      #a8e9ff,
+      #0cafff
+    );
+    animation: spin-slow 6s linear infinite;
+  }
+
+  .text-shimmer {
+    background: linear-gradient(
+      100deg,
+      rgba(18, 18, 18, 0.55) 30%,
+      rgba(18, 18, 18, 1) 45%,
+      rgba(18, 18, 18, 1) 55%,
+      rgba(18, 18, 18, 0.55) 70%
+    );
+    background-size: 250% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: shimmer 3.5s linear infinite;
+  }
+}
+
+.delay-1 { animation-delay: 0.08s; }
+.delay-2 { animation-delay: 0.16s; }
+.delay-3 { animation-delay: 0.24s; }
+.delay-4 { animation-delay: 0.32s; }
+.delay-5 { animation-delay: 0.4s; }
+.delay-6 { animation-delay: 0.5s; }
+.delay-7 { animation-delay: 0.62s; }
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

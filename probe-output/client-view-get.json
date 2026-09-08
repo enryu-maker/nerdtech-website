@@ -1,0 +1,212 @@
+{
+  "method": "GET",
+  "path": "/client/view/",
+  "status": 200,
+  "contentType": "application/json",
+  "body": [
+    {
+      "id": 1,
+      "name": "Apni Mandi",
+      "description": "",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/Apnimandi.png"
+    },
+    {
+      "id": 2,
+      "name": "Homeatz",
+      "description": "",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/he.png"
+    },
+    {
+      "id": 3,
+      "name": "HerdHelp",
+      "description": "",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/Herdhelp.png"
+    },
+    {
+      "id": 4,
+      "name": "EastPass",
+      "description": "",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/East.png"
+    },
+    {
+      "id": 5,
+      "name": "Opera Group",
+      "description": "",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/og.png"
+    },
+    {
+      "id": 6,
+      "name": "DevajNGO",
+      "description": "",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/Logo.png"
+    },
+    {
+      "id": 7,
+      "name": "GFIC",
+      "description": "",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/WhatsApp_Image_2024-03-29_at_20.50.13.jpeg"
+    },
+    {
+      "id": 8,
+      "name": "Rudra Hammam Spa",
+      "description": "",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/rs.png"
+    },
+    {
+      "id": 9,
+      "name": "Pisara Sarees",
+      "description": "",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/ps.png"
+    },
+    {
+      "id": 10,
+      "name": "FBBT",
+      "description": "",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/Fbbt.png"
+    },
+    {
+      "id": 11,
+      "name": "asa",
+      "description": "",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/Asa.png"
+    },
+    {
+      "id": 12,
+      "name": "Gamma",
+      "description": "",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/Gamma.png"
+    },
+    {
+      "id": 13,
+      "name": "Mr.",
+      "description": "",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/Picsart_23-10-30_13-34-19-709.png"
+    },
+    {
+      "id": 14,
+      "name": "Fittingswale",
+      "description": "",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/appstore.png"
+    },
+    {
+      "id": 15,
+      "name": "SSJ",
+      "description": "",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/4.png"
+    },
+    {
+      "id": 16,
+      "name": "KBH",
+      "description": "Government webiste",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/icon.9a39bb178a6b4d2529fd.png"
+    },
+    {
+      "id": 17,
+      "name": "DIGI",
+      "description": "DIGINET",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/Untitled_design_1.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Swaroop",
+      "description": "Agrochemical industry",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/dxgz0bzvphr5ylwqc7pz.png"
+    },
+    {
+      "id": 19,
+      "name": "Pl",
+      "description": "Pl",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/IMG_0060.png"
+    },
+    {
+      "id": 20,
+      "name": "Suvidha",
+      "description": "we provide suvida",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/Academy_hello-2.png"
+    },
+    {
+      "id": 21,
+      "name": "MMP",
+      "description": "MMP",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/MMP.png"
+    },
+    {
+      "id": 22,
+      "name": "Manasmit",
+      "description": "Manasmit",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/logo.png"
+    },
+    {
+      "id": 23,
+      "name": "AEPC",
+      "description": "",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/logo_wli2dz3.png"
+    },
+    {
+      "id": 24,
+      "name": "Power Electronical",
+      "description": "",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/PE-NAME-LOGO.png"
+    },
+    {
+      "id": 25,
+      "name": "Rua",
+      "description": "",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/Rua.png"
+    },
+    {
+      "id": 26,
+      "name": "YCPL",
+      "description": "",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/Yajurveda_icon.png"
+    },
+    {
+      "id": 27,
+      "name": "TBSC",
+      "description": "",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/WhatsApp_Image_2026-02-24_at_14.45.59-removebg-preview.png"
+    },
+    {
+      "id": 28,
+      "name": "Headache Surgery",
+      "description": "",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/logo.webp"
+    },
+    {
+      "id": 29,
+      "name": "Al Asasyah",
+      "description": "",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/basic_electronics_company_logo.jpeg"
+    },
+    {
+      "id": 30,
+      "name": "MR Financial",
+      "description": "",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/MR_LOGO-2.png"
+    },
+    {
+      "id": 31,
+      "name": "NK Plastic",
+      "description": "",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/logo_VAsPRkJ.png"
+    },
+    {
+      "id": 32,
+      "name": "SS",
+      "description": "",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/logo_0vM7prh.webp"
+    },
+    {
+      "id": 33,
+      "name": "Faiz ul Hasnain Foundation",
+      "description": "",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/SS_Engineering_Ig5v32K.png"
+    },
+    {
+      "id": 34,
+      "name": "Bymer Elastomers",
+      "description": "",
+      "image": "https://nerdtech.pythonanywhere.com/media/client_images/bymer-logo.webp"
+    }
+  ]
+}

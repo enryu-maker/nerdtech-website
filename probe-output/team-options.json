@@ -1,0 +1,49 @@
+{
+  "method": "OPTIONS",
+  "path": "/team/",
+  "status": 200,
+  "contentType": "application/json",
+  "body": {
+    "name": "Team List Create Api",
+    "description": "",
+    "renders": [
+      "application/json",
+      "text/html"
+    ],
+    "parses": [
+      "application/json",
+      "application/x-www-form-urlencoded",
+      "multipart/form-data"
+    ],
+    "actions": {
+      "POST": {
+        "id": {
+          "type": "integer",
+          "required": false,
+          "read_only": true,
+          "label": "ID"
+        },
+        "image": {
+          "type": "image upload",
+          "required": true,
+          "read_only": false,
+          "label": "Image",
+          "max_length": 100
+        },
+        "name": {
+          "type": "string",
+          "required": true,
+          "read_only": false,
+          "label": "Name",
+          "max_length": 50
+        },
+        "description": {
+          "type": "string",
+          "required": true,
+          "read_only": false,
+          "label": "Description"
+        }
+      }
+    }
+  }
+}

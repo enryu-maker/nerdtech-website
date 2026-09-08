@@ -1,0 +1,62 @@
+{
+  "method": "OPTIONS",
+  "path": "/blog/blogposts/",
+  "status": 200,
+  "contentType": "application/json",
+  "body": {
+    "name": "Blog Post List",
+    "description": "",
+    "renders": [
+      "application/json",
+      "text/html"
+    ],
+    "parses": [
+      "application/json",
+      "application/x-www-form-urlencoded",
+      "multipart/form-data"
+    ],
+    "actions": {
+      "POST": {
+        "id": {
+          "type": "integer",
+          "required": false,
+          "read_only": true,
+          "label": "ID"
+        },
+        "description": {
+          "type": "field",
+          "required": false,
+          "read_only": true,
+          "label": "Description"
+        },
+        "title": {
+          "type": "string",
+          "required": true,
+          "read_only": false,
+          "label": "Title",
+          "max_length": 200
+        },
+        "image": {
+          "type": "image upload",
+          "required": true,
+          "read_only": false,
+          "label": "Image",
+          "max_length": 100
+        },
+        "date": {
+          "type": "date",
+          "required": true,
+          "read_only": false,
+          "label": "Date"
+        },
+        "category": {
+          "type": "string",
+          "required": true,
+          "read_only": false,
+          "label": "Category",
+          "max_length": 100
+        }
+      }
+    }
+  }
+}

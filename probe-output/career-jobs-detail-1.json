@@ -1,0 +1,18 @@
+{
+  "method": "GET",
+  "path": "/career/jobs/1/",
+  "status": 200,
+  "contentType": "application/json",
+  "body": {
+    "id": 1,
+    "title": "Django REST Framework (DRF) Developer",
+    "description": "<p>As a <strong>Django REST Framework (DRF) Developer</strong>, you will play a crucial role in developing and maintaining <strong>RESTful</strong> APIs and web applications using the Django framework. Your primary responsibility will be to design, implement, and optimize APIs that provide seamless integration between front-end and back-end systems while ensuring scalability, security, and performance.</p>",
+    "requirements": "<ol>\r\n\t<li>Bachelor&#39;s degree in Computer Science, Engineering, or a related field (or equivalent experience).</li>\r\n\t<li>Proficiency in Python programming language.</li>\r\n\t<li>Strong understanding of Django framework and Django REST Framework (DRF).</li>\r\n\t<li>Experience in designing and developing RESTful APIs and web services.</li>\r\n\t<li>Familiarity with relational databases and SQL queries.</li>\r\n\t<li>Knowledge of authentication and authorization mechanisms such as token-based authentication, OAuth, or JWT.</li>\r\n\t<li>Experience with version control systems (e.g., Git) and collaborative development workflows.</li>\r\n\t<li>Excellent problem-solving skills and attention to detail.</li>\r\n\t<li>Strong communication and collaboration skills.</li>\r\n\t<li>Experience with front-end technologies (HTML, CSS, JavaScript) is a plus.</li>\r\n</ol>",
+    "responsibilities": "<ol>\r\n\t<li>Design, develop, and maintain RESTful APIs using Django REST Framework (DRF) to support web and mobile applications.</li>\r\n\t<li>Collaborate with front-end developers, UX/UI designers, and other stakeholders to understand project requirements and implement API endpoints accordingly.</li>\r\n\t<li>Implement authentication and authorization mechanisms such as token-based authentication, OAuth, or JWT to secure API endpoints.</li>\r\n\t<li>Optimize API performance through efficient database queries, caching strategies, and other optimization techniques.</li>\r\n\t<li>Write clean, well-documented, and maintainable code following best practices and coding standards.</li>\r\n\t<li>Implement automated tests for API endpoints to ensure reliability and stability.</li>\r\n\t<li>Troubleshoot and debug issues in API functionality and performance.</li>\r\n\t<li>Work with relational databases (e.g., PostgreSQL, MySQL) to design schemas and optimize database interactions.</li>\r\n\t<li>Collaborate with DevOps engineers to deploy and manage APIs in production environments.</li>\r\n\t<li>Stay up-to-date with the latest developments in Django, Django REST Framework, and related technologies to continuously improve skills and stay ahead of industry trends.</li>\r\n</ol>",
+    "salary": "0.00",
+    "location": "Nashik",
+    "is_active": true,
+    "created_at": "2024-04-06T15:24:30.649832Z",
+    "updated_at": "2024-04-12T04:02:58.441624Z"
+  }
+}

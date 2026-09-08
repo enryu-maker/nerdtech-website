@@ -1,0 +1,62 @@
+{
+  "method": "GET",
+  "path": "/team/",
+  "status": 200,
+  "contentType": "application/json",
+  "body": [
+    {
+      "id": 1,
+      "image": "https://nerdtech.pythonanywhere.com/media/team/Flora_Haven-2.png",
+      "name": "Akif Khan",
+      "description": "Founder & C.E.O"
+    },
+    {
+      "id": 5,
+      "image": "https://nerdtech.pythonanywhere.com/media/team/1771501404002.png",
+      "name": "Aditya Bachawe",
+      "description": "Lead Designer"
+    },
+    {
+      "id": 7,
+      "image": "https://nerdtech.pythonanywhere.com/media/team/1771502549637.png",
+      "name": "Akram khan",
+      "description": "CMO"
+    },
+    {
+      "id": 8,
+      "image": "https://nerdtech.pythonanywhere.com/media/team/ChatGPT_Image_Apr_13_2026_03_56_02_PM.png",
+      "name": "Mandar Jadhav",
+      "description": "Jr GenAI Engineer"
+    },
+    {
+      "id": 9,
+      "image": "https://nerdtech.pythonanywhere.com/media/team/Rahul.jpeg",
+      "name": "Rahul hadpad",
+      "description": "System Architect"
+    },
+    {
+      "id": 10,
+      "image": "https://nerdtech.pythonanywhere.com/media/team/shree.jpeg",
+      "name": "Shreedarshan Nemane",
+      "description": "Frontend Developer"
+    },
+    {
+      "id": 11,
+      "image": "https://nerdtech.pythonanywhere.com/media/team/Shubham_Bhavase.png",
+      "name": "Shubham Bhavsar",
+      "description": "Graphic Designer"
+    },
+    {
+      "id": 12,
+      "image": "https://nerdtech.pythonanywhere.com/media/team/WhatsApp_Image_2026-04-14_at_14.57.13.jpeg",
+      "name": "Dr. Nuras Naser Saeed Hizam",
+      "description": "Web and Mobile Developer \r\nMarketing In charge for Arab Region \r\nEnglish to Arabic Translator and Vice Versa"
+    },
+    {
+      "id": 13,
+      "image": "https://nerdtech.pythonanywhere.com/media/team/GOD_G.jpeg",
+      "name": "Bhagwansingh Chavan",
+      "description": "AI Automation Intern"
+    }
+  ]
+}
