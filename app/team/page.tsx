@@ -59,7 +59,7 @@ export default async function TeamPage() {
         </section>
 
         {/* Team grid */}
-        <section className="relative mx-auto mb-32 max-w-container-max px-margin-mobile md:px-margin-desktop">
+        <section className="relative mx-auto mb-20 max-w-container-max px-margin-mobile md:px-margin-desktop">
           <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-4">
             {team.map((member, i) => (
               <Reveal key={member.id} delay={i * 0.06} distance={40}>

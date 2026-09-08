@@ -207,7 +207,7 @@ export default async function Home() {
 
       <main className="overflow-hidden bg-[#fafafa] pt-[76px] text-[#080808]">
         {/*HERO*/}
-        <section className="relative mb-16 min-h-[680px] overflow-hidden md:mb-20">
+        <section className="relative mb-10 min-h-[680px] overflow-hidden md:mb-14">
           {/* Dotted background */}
           <div
             className="pointer-events-none absolute inset-0 opacity-[0.28]"
@@ -444,14 +444,14 @@ export default async function Home() {
         </section>
 
         {/* Full-cycle services */}
-        <section className="relative mx-auto mb-32 mt-2 max-w-container-max overflow-hidden px-margin-mobile md:mt-4 md:px-margin-desktop">
+        <section className="relative mx-auto mb-20 mt-2 max-w-container-max overflow-hidden px-margin-mobile md:mt-4 md:px-margin-desktop">
           <Reveal>
             <ExpertisePreview stages={expertiseStages} />
           </Reveal>
         </section>
 
         {/* Founder note */}
-        <section className="relative mx-auto mb-32 mt-2 max-w-container-max overflow-hidden px-margin-mobile [perspective:1600px] md:mt-4 md:px-margin-desktop">
+        <section className="relative mx-auto mb-20 mt-2 max-w-container-max overflow-hidden px-margin-mobile [perspective:1600px] md:mt-4 md:px-margin-desktop">
           <Reveal distance={70} duration={0.9} rootMargin="0px 0px 10% 0px" threshold={0}>
           <div className="group/card relative overflow-hidden rounded-[2rem] bg-white p-8 shadow-[0_1px_0_rgba(18,18,18,0.04)] transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_24px_60px_rgba(18,18,18,0.1)] md:p-16">
             {/* Decorative background layers */}
@@ -578,7 +578,7 @@ export default async function Home() {
         </section>
 
         {/* Recent news */}
-        <section className="relative mx-auto mb-32 mt-20 max-w-container-max overflow-hidden px-margin-mobile md:mt-28 md:px-margin-desktop">
+        <section className="relative mx-auto mb-20 mt-4 max-w-container-max overflow-hidden px-margin-mobile md:mt-6 md:px-margin-desktop">
           <div className="pointer-events-none absolute -left-24 top-0 h-72 w-72 rounded-full bg-accent/10 blur-[100px] animate-blob-drift" />
 
           <Reveal>
@@ -667,7 +667,7 @@ export default async function Home() {
         </section>
 
         {/* Featured work */}
-        <section className="mx-auto mb-32 max-w-container-max px-margin-mobile md:px-margin-desktop">
+        <section className="mx-auto mb-20 max-w-container-max px-margin-mobile md:px-margin-desktop">
           <Reveal>
             <p className="mb-4 flex items-center gap-2 font-mono text-xs uppercase tracking-widest text-ink-faint">
               <span className="h-1.5 w-1.5 rounded-full bg-accent" />
@@ -757,14 +757,14 @@ export default async function Home() {
         </section>
 
         {/* Tech stack */}
-        <section className="relative mx-auto mb-32 max-w-container-max overflow-hidden px-margin-mobile md:px-margin-desktop">
+        <section className="relative mx-auto mb-20 max-w-container-max overflow-hidden px-margin-mobile md:px-margin-desktop">
           <Reveal>
             <TechStackPreview />
           </Reveal>
         </section>
 
         {/* Our clients */}
-        <section className="mx-auto mb-32 max-w-container-max px-margin-mobile md:px-margin-desktop">
+        <section className="mx-auto mb-20 max-w-container-max px-margin-mobile md:px-margin-desktop">
           <p className="mb-4 flex items-center gap-2 font-mono text-xs uppercase tracking-widest text-ink-faint">
             <span className="h-1.5 w-1.5 rounded-full bg-accent" />
             Trusted by
@@ -803,7 +803,7 @@ export default async function Home() {
         </section>
 
         {/* Global presence (dark) */}
-        <section className="relative overflow-hidden bg-dark px-margin-mobile py-24 md:px-margin-desktop">
+        <section className="relative overflow-hidden bg-dark px-margin-mobile py-20 md:px-margin-desktop">
           <div className="dot-grid-dark pointer-events-none absolute inset-0 opacity-30 [mask-image:radial-gradient(ellipse_70%_70%_at_50%_0%,black,transparent)]" />
           <div className="pointer-events-none absolute -right-[10%] top-[-10%] h-[420px] w-[420px] rounded-full bg-accent/10 blur-[120px]" />
           <div className="pointer-events-none absolute -left-[8%] bottom-[-15%] h-[320px] w-[320px] rounded-full bg-accent/5 blur-[110px]" />
@@ -887,7 +887,7 @@ export default async function Home() {
         </section>
 
         {/* CTA (white, flows into footer) */}
-        <section className="relative overflow-hidden bg-white px-margin-mobile pb-28 pt-20 text-center md:px-margin-desktop">
+        <section className="relative overflow-hidden bg-white px-margin-mobile pb-20 pt-16 text-center md:px-margin-desktop">
           <div className="dot-grid-dark pointer-events-none absolute inset-0 opacity-[0.05] [mask-image:radial-gradient(ellipse_60%_80%_at_50%_40%,black,transparent)]" />
 
           <Reveal distance={30}>

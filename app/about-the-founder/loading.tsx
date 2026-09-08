@@ -17,7 +17,7 @@ export default function LoadingFounder() {
           </div>
         </section>
 
-        <section className="mx-auto mb-28 max-w-container-max px-margin-mobile md:px-margin-desktop">
+        <section className="mx-auto mb-16 max-w-container-max px-margin-mobile md:px-margin-desktop">
           <div className="grid grid-cols-1 gap-10 md:grid-cols-12 md:gap-16">
             <div className="md:col-span-5">
               <div className="aspect-[4/5] w-full animate-pulse rounded-[2rem] bg-ink/10" />

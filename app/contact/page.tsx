@@ -109,7 +109,7 @@ export default function ContactPage() {
             </div>
 
             {/*GET IN TOUCH*/}
-            <div className="mt-24 grid grid-cols-1 gap-10 border-t border-ink/10 pt-16 lg:grid-cols-12 lg:gap-10">
+            <div className="mt-12 grid grid-cols-1 gap-10 border-t border-ink/10 pt-12 lg:grid-cols-12 lg:gap-10">
               <Reveal distance={20} className="lg:col-span-5">
                 <h2 className="font-display text-2xl font-bold leading-tight tracking-tight text-ink md:text-3xl">
                   Get in touch

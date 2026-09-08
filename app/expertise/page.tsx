@@ -86,7 +86,7 @@ export default async function ExpertisePage() {
         </section>
 
         {/* Our Expertise (dark, pill tabs) */}
-        <section className="relative overflow-hidden bg-dark px-margin-mobile py-20 md:px-margin-desktop md:py-28">
+        <section className="relative overflow-hidden bg-dark px-margin-mobile py-16 md:px-margin-desktop md:py-20">
           <div className="dot-grid-dark pointer-events-none absolute inset-0 opacity-30 [mask-image:radial-gradient(ellipse_70%_70%_at_50%_0%,black,transparent)]" />
           <div className="pointer-events-none absolute -right-[10%] top-[-10%] h-[420px] w-[420px] rounded-full bg-accent/10 blur-[120px]" />
           <div className="pointer-events-none absolute -left-[8%] bottom-[-15%] h-[320px] w-[320px] rounded-full bg-accent/5 blur-[110px]" />
@@ -99,7 +99,7 @@ export default async function ExpertisePage() {
         </section>
 
         {/* CTA */}
-        <section className="relative overflow-hidden bg-white px-margin-mobile py-24 text-center md:px-margin-desktop">
+        <section className="relative overflow-hidden bg-white px-margin-mobile py-16 text-center md:px-margin-desktop">
           <div className="dot-grid-dark pointer-events-none absolute inset-0 opacity-[0.04]" />
           <div className="pointer-events-none absolute left-1/2 top-1/2 h-[380px] w-[560px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-accent/5 blur-[120px]" />
 

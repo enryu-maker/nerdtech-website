@@ -125,7 +125,7 @@ export default async function BlogIndexPage() {
         </section>
 
         {/* Recent news grid */}
-        <section className="relative mx-auto mb-32 max-w-container-max overflow-hidden px-margin-mobile md:px-margin-desktop">
+        <section className="relative mx-auto mb-20 max-w-container-max overflow-hidden px-margin-mobile md:px-margin-desktop">
           <Reveal>
             <h2 className="mb-10 font-display text-4xl font-bold text-ink">
               Recent{" "}

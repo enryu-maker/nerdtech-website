@@ -73,7 +73,7 @@ export default async function WorkIndexPage() {
         </section>
 
         {/* Projects grid */}
-        <section className="mx-auto mb-32 max-w-container-max px-margin-mobile md:px-margin-desktop">
+        <section className="mx-auto mb-20 max-w-container-max px-margin-mobile md:px-margin-desktop">
           {projects.length === 0 ? (
             <p className="font-body text-sm text-ink-muted">
               We couldn&apos;t load our projects right now. Please check back

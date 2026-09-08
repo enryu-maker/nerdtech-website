@@ -59,7 +59,7 @@ export default async function ProductsPage() {
         </section>
 
         {/* Products grid — dark section */}
-        <section className="relative overflow-hidden bg-dark px-margin-mobile py-20 md:px-margin-desktop md:py-28">
+        <section className="relative overflow-hidden bg-dark px-margin-mobile py-16 md:px-margin-desktop md:py-20">
           <div className="dot-grid pointer-events-none absolute inset-0 opacity-[0.06]" />
           <div className="pointer-events-none absolute -left-24 top-1/3 h-72 w-72 -translate-y-1/2 rounded-full bg-accent/20 blur-[120px]" />
 

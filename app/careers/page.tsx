@@ -95,7 +95,7 @@ export default async function CareersPage() {
         </section>
 
         {/*CTA (dark)*/}
-        <section className="relative overflow-hidden bg-dark px-margin-mobile pb-28 pt-20 text-center md:px-margin-desktop">
+        <section className="relative overflow-hidden bg-dark px-margin-mobile pb-20 pt-16 text-center md:px-margin-desktop">
           <div className="dot-grid-dark pointer-events-none absolute inset-0 opacity-30 [mask-image:radial-gradient(ellipse_60%_80%_at_50%_40%,black,transparent)]" />
 
           <Reveal distance={30}>

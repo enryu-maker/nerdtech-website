@@ -131,7 +131,7 @@ export default function AboutTheFounder() {
         </section>
 
         {/* Portrait + intro */}
-        <section className="mx-auto mb-28 max-w-container-max px-margin-mobile md:px-margin-desktop">
+        <section className="mx-auto mb-16 max-w-container-max px-margin-mobile md:px-margin-desktop">
           <Reveal distance={60} duration={0.9}>
             <div className="grid grid-cols-1 gap-10 md:grid-cols-12 md:gap-16">
               <div className="relative md:col-span-5">
@@ -303,7 +303,7 @@ export default function AboutTheFounder() {
         </section>
 
         {/* Guiding principles */}
-        <section className="mx-auto mb-28 max-w-container-max px-margin-mobile md:px-margin-desktop">
+        <section className="mx-auto mb-16 max-w-container-max px-margin-mobile md:px-margin-desktop">
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
             {PRINCIPLES.map((principle, i) => (
               <Reveal key={principle.title} distance={40} duration={0.8} delay={i * 0.1}>
