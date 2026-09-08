@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Space_Grotesk, Inter, JetBrains_Mono } from "next/font/google";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import "@/app/globals.css";
@@ -38,6 +38,14 @@ export const metadata: Metadata = {
     siteName: "NerdTech",
     type: "website",
   },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+  viewportFit: "cover",
+  themeColor: "#0D0D0D",
 };
 
 export default function RootLayout({

@@ -62,8 +62,29 @@ export default function TestimonialsCarousel({
     return () => {
       if (timerRef.current) clearInterval(timerRef.current);
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+
   }, [paused, n, interval]);
+
+  const touchStartX = useRef<number | null>(null);
+  const touchDeltaX = useRef(0);
+
+  const onTouchStart = (e: React.TouchEvent) => {
+    touchStartX.current = e.touches[0].clientX;
+    touchDeltaX.current = 0;
+    setPaused(true);
+  };
+  const onTouchMove = (e: React.TouchEvent) => {
+    if (touchStartX.current === null) return;
+    touchDeltaX.current = e.touches[0].clientX - touchStartX.current;
+  };
+  const onTouchEnd = () => {
+    if (Math.abs(touchDeltaX.current) > 40) {
+      go(touchDeltaX.current < 0 ? 1 : -1);
+    }
+    touchStartX.current = null;
+    touchDeltaX.current = 0;
+    setPaused(false);
+  };
 
   const peek =
     containerWidth === 0
@@ -88,7 +109,13 @@ export default function TestimonialsCarousel({
           format_quote
         </span>
 
-        <div ref={wrapperRef} className="relative overflow-hidden">
+        <div
+          ref={wrapperRef}
+          className="relative touch-pan-y overflow-hidden"
+          onTouchStart={onTouchStart}
+          onTouchMove={onTouchMove}
+          onTouchEnd={onTouchEnd}
+        >
           <div
             className="flex"
             style={{
@@ -144,7 +171,7 @@ export default function TestimonialsCarousel({
       </div>
 
       {n > 1 && (
-        <div className="absolute right-0 top-[42%] z-10 flex -translate-y-1/2 flex-col gap-1.5">
+        <div className="relative z-10 mt-6 flex justify-end gap-1.5 sm:absolute sm:right-0 sm:top-[42%] sm:mt-0 sm:-translate-y-1/2 sm:flex-col">
           <button
             type="button"
             onClick={() => go(-1)}

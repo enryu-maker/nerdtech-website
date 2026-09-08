@@ -7,9 +7,9 @@ type Client = { name: string; logo?: string };
 
 type ClientsCarouselProps = {
   clients: Client[];
-  /** Logos per slide (arranged as 2 rows x half this many columns). */
+
   perSlide?: number;
-  /** Milliseconds between auto-advances. */
+
   interval?: number;
 };
 
@@ -37,13 +37,41 @@ export default function ClientsCarousel({
     };
   }, [paused, slides.length, interval]);
 
+  const touchStartX = useRef<number | null>(null);
+  const touchDeltaX = useRef(0);
+
+  const onTouchStart = (e: React.TouchEvent) => {
+    touchStartX.current = e.touches[0].clientX;
+    touchDeltaX.current = 0;
+    setPaused(true);
+  };
+  const onTouchMove = (e: React.TouchEvent) => {
+    if (touchStartX.current === null) return;
+    touchDeltaX.current = e.touches[0].clientX - touchStartX.current;
+  };
+  const onTouchEnd = () => {
+    if (Math.abs(touchDeltaX.current) > 40 && slides.length > 1) {
+      setIndex((prev) =>
+        (prev + (touchDeltaX.current < 0 ? 1 : -1) + slides.length) % slides.length
+      );
+    }
+    touchStartX.current = null;
+    touchDeltaX.current = 0;
+    setPaused(false);
+  };
+
   return (
     <div
       className="relative"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
-      <div className="overflow-hidden">
+      <div
+        className="touch-pan-y overflow-hidden"
+        onTouchStart={onTouchStart}
+        onTouchMove={onTouchMove}
+        onTouchEnd={onTouchEnd}
+      >
         <div
           className="flex transition-transform ease-[cubic-bezier(0.65,0,0.35,1)]"
           style={{
