@@ -21,7 +21,7 @@ export default async function ProductsPage() {
     <>
       <Navbar />
 
-      <main className="min-h-screen bg-cream pt-[76px]">
+      <main className="min-h-screen bg-white pt-[76px]">
         {/* Breadcrumb */}
         <div className="mx-auto max-w-container-max px-margin-mobile pt-6 md:px-margin-desktop">
           <nav className="flex items-center gap-2 font-body text-sm text-ink-faint">
