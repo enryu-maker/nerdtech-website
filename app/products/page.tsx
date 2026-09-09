@@ -77,7 +77,7 @@ export default async function ProductsPage() {
               </Reveal>
             </div>
 
-            <div className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
               {products.map((product, i) => (
                 <Reveal key={product.id} delay={i * 0.08} distance={50}>
                   <div className="group flex h-full flex-col overflow-hidden rounded-2xl border border-white/10 bg-dark transition-all duration-500 ease-out hover:-translate-y-2 hover:border-accent/30 hover:shadow-[0_24px_60px_rgba(12,175,255,0.2)]">
@@ -88,7 +88,7 @@ export default async function ProductsPage() {
                           alt={product.name}
                           fill
                           className="object-cover transition-transform duration-700 ease-out group-hover:scale-110"
-                          sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                          sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
                         />
                       ) : (
                         <div className="flex h-full w-full items-center justify-center">
@@ -98,12 +98,12 @@ export default async function ProductsPage() {
                         </div>
                       )}
                     </div>
-                    <div className="flex flex-1 flex-col px-5 py-5">
+                    <div className="flex flex-1 flex-col px-4 pb-4 pt-2">
                       <h3 className="font-display text-lg font-bold leading-snug text-white">
                         {product.name}
                       </h3>
-                      <p className="mt-2 line-clamp-3 font-body text-sm text-ink-faint">
-                        {product.excerpt}
+                      <p className="mt-2 font-body text-sm text-ink-faint">
+                        {product.description}
                       </p>
                     </div>
                   </div>
