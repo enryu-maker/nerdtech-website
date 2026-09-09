@@ -11,7 +11,6 @@ export const metadata = {
     "Meet the people behind NerdTech — designers, engineers, and strategists building digital products for our clients.",
 };
 
-// Re-check the backend at most once an hour (see lib/api.ts).
 export const revalidate = 3600;
 
 export default async function TeamPage() {

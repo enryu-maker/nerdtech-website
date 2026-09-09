@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Stage } from "@/lib/expertise";
+import { Stage, slugify } from "@/lib/expertise";
 
 export default function ExpertisePreview({ stages }: { stages: Stage[] }) {
   const [activeKey, setActiveKey] = useState(stages[0]?.key);
@@ -127,7 +127,9 @@ export default function ExpertisePreview({ stages }: { stages: Stage[] }) {
                   {service.description}
                 </p>
                 <Link
-                  href="/expertise"
+                  href={`/expertise?stage=${activeStage.key}&service=${slugify(
+                    service.title
+                  )}`}
                   className="group/link mt-auto inline-flex w-fit items-center gap-1.5 font-body text-sm font-semibold text-ink transition-colors hover:text-accent"
                 >
                   Explore more

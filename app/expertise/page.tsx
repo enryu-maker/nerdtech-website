@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -85,15 +86,16 @@ export default async function ExpertisePage() {
           </div>
         </section>
 
-        {/* Our Expertise (dark, pill tabs) */}
         <section className="relative overflow-hidden bg-dark px-margin-mobile py-16 md:px-margin-desktop md:py-20">
           <div className="dot-grid-dark pointer-events-none absolute inset-0 opacity-30 [mask-image:radial-gradient(ellipse_70%_70%_at_50%_0%,black,transparent)]" />
           <div className="pointer-events-none absolute -right-[10%] top-[-10%] h-[420px] w-[420px] rounded-full bg-accent/10 blur-[120px]" />
           <div className="pointer-events-none absolute -left-[8%] bottom-[-15%] h-[320px] w-[320px] rounded-full bg-accent/5 blur-[110px]" />
 
-          <div className="relative mx-auto max-w-container-max">
+          <div className="relative mx-auto max-w-container-max pt-4 md:pt-6">
             <Reveal distance={30}>
-              <ExpertiseTabs stages={EXPERTISE_STAGES} />
+              <Suspense fallback={null}>
+                <ExpertiseTabs stages={EXPERTISE_STAGES} />
+              </Suspense>
             </Reveal>
           </div>
         </section>
